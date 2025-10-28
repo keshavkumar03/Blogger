@@ -1,0 +1,76 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp/
+.pnp.js
+
+# Environment files (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+out/
+lib/
+tmp/
+temp/
+
+# Logs and runtime files
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage & test output
+coverage/
+.nyc_output/
+test-results/
+jest.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Database / storage
+*.sqlite
+*.sqlite3
+*.db
+uploads/
+storage/
+
+# Certificates / keys / secrets
+*.pem
+*.key
+*.crt
+secrets.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+docker-compose.override.yml
+
+# Misc caches
+.cache/
+.cache-loader/
+node_modules/.cache/
+
+# Keep repository clean
+.DS_Store
